@@ -245,7 +245,7 @@ const App = () => {
           </button>
         )}
       </div>
-      <div style={{marginTop: '500px'}}>
+      <div>
         <canvas
           ref={canvasResultRef}
           className='canvasContainer'
