@@ -1,0 +1,25 @@
+.App {
+    text-align: center;
+  }
+  video {
+    /* bahut jaruri line hai  */
+    position: absolute;
+    right: 100%;
+  }
+  
+  .lens-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  .lens-image {
+    border: 1px solid black;
+    margin: 0 10px;
+    padding: 10px;
+    cursor: pointer;
+    img {
+      height: 20px;
+      width: 20px;
+    }
+  }
