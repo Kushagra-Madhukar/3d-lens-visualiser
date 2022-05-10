@@ -259,6 +259,8 @@ const App = () => {
             zindex: 9,
             width: 640,
             height: 480,
+             maxWidth: '100%',
+             maxHeight: '100%',
           }}
         />
       </div>
