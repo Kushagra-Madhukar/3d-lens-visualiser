@@ -182,10 +182,7 @@ const App = () => {
   
   return (
     <div className='container'>
-      <select value={currentColor} onChange={(e) => setCurrentColor(e.target.value)}>
-        <option value={skyblueLens}>Blue</option>
-        <option value={redLens}>Red</option>
-      </select>
+      
       <div className='webcam-img'>
         {/* {image === '' ? ( */}
           <Webcam
@@ -206,6 +203,13 @@ const App = () => {
             // }}
           />
         {/* ) : null} */}
+      <h1>Eye color changer AR</h1>
+      <p>Click on dropdown below to change your Eyecolor</p>
+      <p>Created by Kushagra Madhukar => mail: madhukarkushagra@gmail.com</p>
+      <select value={currentColor} onChange={(e) => setCurrentColor(e.target.value)}>
+        <option value={skyblueLens}>Blue</option>
+        <option value={redLens}>Red</option>
+      </select>
         <canvas
           ref={canvasRef}
           className='canvasContainer'
