@@ -34,4 +34,14 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    h1 {
+        margin: 0;
+        padding: 0;
+        height: 37px;
+    }
+    p {
+        margin: 0;
+        padding: 0;
+        height: 50px;
+    }
 }
